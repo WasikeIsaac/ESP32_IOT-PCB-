@@ -1,0 +1,192 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a113740c-5b6b-41a2-8be3-2f5bcc2b986e")
+	(paper "A4")
+	(title_block
+		(title "ESP32 IOT")
+		(date "2026-03-16")
+		(rev "1")
+		(company "WASIKE")
+	)
+	(lib_symbols)
+	(sheet
+		(at 151.13 27.305)
+		(size 94.615 55.88)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 255 133 245 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "282c7bbd-b6bf-4022-8278-3710d64d4467")
+		(property "Sheetname" "Sensors"
+			(at 151.13 25.3234 0)
+			(effects
+				(font
+					(size 3.81 3.81)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensors.kicad_sch"
+			(at 151.13 83.7696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32_IOT"
+				(path "/a113740c-5b6b-41a2-8be3-2f5bcc2b986e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 27.305)
+		(size 81.915 55.245)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 82 71 255 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5338ff32-c6a5-4e85-9174-b95218f0a9dc")
+		(property "Sheetname" "Power_and USB_Module"
+			(at 24.13 25.3234 0)
+			(effects
+				(font
+					(size 3.81 3.81)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_and_usb.kicad_sch"
+			(at 24.13 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32_IOT"
+				(path "/a113740c-5b6b-41a2-8be3-2f5bcc2b986e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 154.94 99.695)
+		(size 90.17 57.15)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 255 121 120 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a5e30959-0db1-4646-92c1-e7640905698a")
+		(property "Sheetname" "Interface"
+			(at 154.94 97.7134 0)
+			(effects
+				(font
+					(size 3.81 3.81)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Interface.kicad_sch"
+			(at 154.94 157.4296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32_IOT"
+				(path "/a113740c-5b6b-41a2-8be3-2f5bcc2b986e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 105.41)
+		(size 81.915 56.515)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 153 255 115 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c11c698e-e833-45cb-8839-9b9ae196d5dd")
+		(property "Sheetname" "ESP32_SDCard_FlashMemory_USBModule"
+			(at 24.13 104.0634 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32_SDCard_flash_usb.kicad_sch"
+			(at 24.13 162.5096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32_IOT"
+				(path "/a113740c-5b6b-41a2-8be3-2f5bcc2b986e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
